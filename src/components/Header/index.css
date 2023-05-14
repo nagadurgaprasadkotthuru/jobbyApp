@@ -1,0 +1,98 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 12px 18px 12px;
+  background-color: #202020;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    padding: 10px 30px 10px 30px;
+    height: 100px;
+  }
+}
+
+.logo-button {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.header-website-logo {
+  width: 80px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-website-logo {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+.icons-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
+}
+
+.icon-button {
+  border: 0px;
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 23px;
+}
+
+.home-button {
+  border: 0px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .home-jobs-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logout-button {
+    display: none;
+  }
+}
+
+.logout-button {
+  border: 0px;
+  background-color: #6366f1;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 8px 28px 8px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}

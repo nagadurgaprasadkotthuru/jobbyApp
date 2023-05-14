@@ -1,0 +1,92 @@
+.similar-job-list-element {
+  list-style-type: none;
+  background-color: #202020;
+  border-radius: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-list-element {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 22%;
+    margin-right: 25px;
+  }
+}
+
+.similar-job-logo-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.similar-job-role-rating-container {
+}
+
+.similar-job-role {
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-bottom: 6px;
+}
+
+.similar-job-rating {
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.similar-job-star {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+.similar-job-location-employment-type-container {
+  display: flex;
+}
+
+.similar-job-location {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.similar-job-location-icon {
+  margin-right: 6px;
+}
+
+.similar-job-employment-type {
+}
+
+.similar-job-description-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.similar-job-description {
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 6px;
+  margin-bottom: 3px;
+  color: #f1f5f9;
+  line-height: 1.5;
+}

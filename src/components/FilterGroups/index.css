@@ -1,0 +1,20 @@
+.filter-groups-bg-container {
+  width: 100%;
+}
+
+.horizontal-line {
+  width: 100%;
+  border: 1px solid #64748b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.employment-types-heading {
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.employment-types-list-container {
+  padding-left: 0px;
+}

@@ -1,0 +1,110 @@
+.job-item-list-element {
+  list-style-type: none;
+  background-color: #202020;
+  border-radius: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-list-element {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 98%;
+  }
+}
+
+.job-logo-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.job-role-rating-container {
+}
+
+.role {
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-bottom: 6px;
+}
+
+.rating {
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.star {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+.job-location-employment-type-salary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-location-employment-type-container {
+  display: flex;
+}
+
+.location {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.location-icon {
+  margin-right: 6px;
+}
+
+.employment-type {
+}
+
+.salary {
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+
+.horizontal-line {
+  width: 100%;
+  border: 1px solid #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.description-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 6px;
+  margin-bottom: 3px;
+  color: #cbd5e1;
+  line-height: 1.5;
+}

@@ -1,0 +1,133 @@
+.login-bg-container {
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-login-form {
+  background-color: #2c364c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  width: 85%;
+  height: 38%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-login-form {
+    width: 28%;
+    height: 55%;
+    padding: 20px;
+  }
+}
+
+.website-logo {
+  width: 80px;
+  height: 20px;
+  margin-bottom: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 120px;
+    height: 38px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+  }
+}
+
+.label-input-element-container {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .label-input-element-container {
+    width: 86%;
+    margin-bottom: 15px;
+  }
+}
+
+.label-element {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .label-element {
+    font-size: 13px;
+  }
+}
+
+.input-element {
+  color: #64748b;
+  padding-left: 10px;
+  width: 100%;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid #7e858e;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element {
+    height: 42px;
+    font-size: 16px;
+  }
+}
+
+.login-button {
+  border: 0px;
+  background-color: #4f46e5;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  height: 31px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-button {
+    margin-top: 20px;
+    height: 40px;
+    width: 86%;
+  }
+}
+
+.error-msg {
+  font-size: 14px;
+  color: #ff0b37;
+  padding: 0px;
+  margin: 5px 0px 0px 0px;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .error-msg {
+    margin-left: 26px;
+  }
+}
